@@ -1,19 +1,47 @@
 .header{
-    background-color: bisque;
+    background-color: rgb(238, 151, 228);
     padding: 50px;
-    
+
   }
   .navbar {
-    border: 5px outset red;
-    background-color: lightblue;
+    
+    float: bottom;
+    padding: 100px;
+    background-color: rgb(13, 183, 240);
     text-align: center;
     
   }
+  .row{
+    width:1240px;
+    background-color: antiquewhite;
+    margin: auto;
+  }
   .side
   {
-    border: 10px blue;
+    float: left;
+    background-color: azure;
+    width: 440px;
+    height: 300px;
+  }
+  .side:hover{
+    background-color: orange;
+    font-family: 'Franklin Gothic Medium';
   }
   .main
   {
-    border: 10px green;
+    background-color: green;
+    float: right;
+    width: 800px;
+    height: 300px;
+
+  }
+  .main:hover
+  {
+    background-color: orange;
+  }
+  div>h3{
+    color: red;
+  }
+  .wait{
+    cursor: crosshair;
   }
