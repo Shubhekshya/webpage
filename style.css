@@ -1,8 +1,19 @@
-<style>
-.navbar
-{
+.header{
+    background-color: bisque;
+    padding: 50px;
+    
+  }
+  .navbar {
     border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
-}
-</style>
+    background-color: lightblue;
+    text-align: center;
+    
+  }
+  .side
+  {
+    border: 10px blue;
+  }
+  .main
+  {
+    border: 10px green;
+  }
