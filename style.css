@@ -1,7 +1,14 @@
 .header{
     background-color: rgb(238, 151, 228);
     padding: 50px;
-
+  }
+  .profile{
+    width:250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute ;
+    top: 20%;
+    right:5%;
   }
   .navbar {
     
@@ -19,17 +26,17 @@
   .side
   {
     float: left;
-    background-color: azure;
+    background-color: rgb(212, 237, 173);
     width: 440px;
     height: 300px;
   }
   .side:hover{
-    background-color: orange;
+    background-color: rgb(237, 219, 185);
     font-family: 'Franklin Gothic Medium';
   }
   .main
   {
-    background-color: green;
+    background-color: rgb(212, 237, 173);
     float: right;
     width: 800px;
     height: 300px;
@@ -37,7 +44,7 @@
   }
   .main:hover
   {
-    background-color: orange;
+    background-color: rgb(245, 233, 210);
   }
   div>h3{
     color: red;
@@ -45,8 +52,13 @@
   .wait{
     cursor: crosshair;
   }
-  img{
-    width:300px;
-    height: 300px;
-    border-radius: 100%;
+  .insta{
+    height:50px;
+    width: 50px;
+    position: relative;
+  }
+  .fb{
+    height:50px;
+    width: 50px;
+    position: relative;
   }
